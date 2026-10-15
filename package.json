@@ -1,0 +1,22 @@
+{
+  "name": "apicalculator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/write-sitemap.mjs && vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "genesys-spark": "^4.262.1",
+    "lucide-react": "^1.28.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
+}
