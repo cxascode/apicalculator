@@ -3,7 +3,7 @@ import { SITE_ORIGIN } from './lib/site.js';
 const PRODUCTION_ORIGIN = SITE_ORIGIN;
 const DEFAULT_PATH = '/apicalculator/';
 
-const DEFAULT_TITLE = 'CX as Code API on-demand calculator';
+const DEFAULT_TITLE = 'CX as Code API calculator';
 const DEFAULT_DESCRIPTION =
   'Estimate monthly Genesys Cloud API on-demand allocation from fair use policy tables by billable user type, license tier, and user count.';
 
