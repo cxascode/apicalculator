@@ -112,6 +112,30 @@ a:focus-visible {
   color: var(--gc-subtle);
 }
 
+.gcPageIntro {
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+
+.gcPageIntroTitle {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--gc-text);
+}
+
+.gcPageIntro p {
+  margin: 0;
+  color: var(--gc-subtle);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.gcPageIntro strong {
+  font-weight: 600;
+  color: var(--gc-text);
+}
+
 .gcPageMeta {
   display: flex;
   align-items: center;

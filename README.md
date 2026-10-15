@@ -1,4 +1,4 @@
-# CX as Code API on-demand calculator
+# CX as Code API calculator
 
 **Live app:** [https://cxascode.github.io/apicalculator/](https://cxascode.github.io/apicalculator/)
 
@@ -33,7 +33,6 @@ For a custom domain or root deployment, set `VITE_BASE_PATH=/` in the workflow o
 
 - **[CX as Code Explorer](https://cxascode.github.io/)** — provider resource catalog and dependencies
 - **[Export Builder](https://cxascode.github.io/exportbuilder/)** — `genesyscloud_tf_export` workflows
-- **OrgSync Splitter** — models OrgSync split jobs (separate repo)
 
 ## License
 
