@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import ApiCalculator from './components/ApiCalculator.jsx';
 import { applyPageSeo } from './pageSeo.js';
-import { EXPORT_BUILDER_URL, HOME_URL } from './lib/site.js';
+import { HOME_URL } from './lib/site.js';
 
 export default function App() {
   useEffect(() => {
@@ -18,11 +18,6 @@ export default function App() {
               <span className="gcPageTitleSeparator" aria-hidden="true">/</span>
               <span className="gcPageTitleCurrent">API on-demand calculator</span>
             </h1>
-          </div>
-          <div className="gcPageMeta">
-            <div className="gcHeaderLinks">
-              <a className="gcHeaderLink" href={EXPORT_BUILDER_URL}>Export Builder</a>
-            </div>
           </div>
         </div>
       </header>
